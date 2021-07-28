@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #main_div {
+        margin-left: 35%;
+        width: 25%;
+        margin-top: 2%;
+        background-color: wheat;
+      }
+      #main_div img {
+        max-width: 100%;
+        height: 500px;
+        margin-left: 10%;
+      }
+      #movi {
+        margin-left: 35%;
+        margin-top: 2%;
+        height: 30px;
+      }
+
+      body {
+        background-color: rgb(20, 27, 40);
+      }
+      #bt {
+        height: 30px;
+      }
+      h1 {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Search Movie By Name</h1>
+    <input type="text" id="movi" placeholder="Enter Movie Name" />
+    <button onclick="movie()" id="bt">Search Movie</button>
+    <div id="main_div"></div>
+  </body>
+</html>
+<script src="movie1.js"></script>
